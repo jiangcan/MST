@@ -1,8 +1,6 @@
 {
+    "interface_version": 2,
     "name": "MST",
-    "url": "https://github.com/Windsland52/MST",
-    "default_controller": "adb",
-    "lock_controller": true,
     "controller": [
         {
             "name": "ADB 默认方式",
@@ -11,65 +9,9 @@
     ],
     "resource": [
         {
-            "name": "新月(官网/TapTap)",
+            "name": "新月(小七)",
             "path": [
-                "{PROJECT_DIR}/resource/base"
-            ]
-        },
-        {
-            "name": "新月(bilibili)",
-            "path": [
-                "{PROJECT_DIR}/resource/base",
-                "{PROJECT_DIR}/resource/bilibili"
-            ]
-        },
-        {
-            "name": "卢纳(小米)",
-            "path": [
-                "{PROJECT_DIR}/resource/base",
-                "{PROJECT_DIR}/resource/xiaomi"
-            ]
-        },
-        {
-            "name": "卢纳(华为)",
-            "path": [
-                "{PROJECT_DIR}/resource/base",
-                "{PROJECT_DIR}/resource/huawei"
-            ]
-        },
-        {
-            "name": "卢纳(oppo)",
-            "path": [
-                "{PROJECT_DIR}/resource/base",
-                "{PROJECT_DIR}/resource/oppo"
-            ]
-        },
-        {
-            "name": "卢纳(vivo)",
-            "path": [
-                "{PROJECT_DIR}/resource/base",
-                "{PROJECT_DIR}/resource/vivo"
-            ]
-        },
-        {
-            "name": "卢纳(4399)",
-            "path": [
-                "{PROJECT_DIR}/resource/base",
-                "{PROJECT_DIR}/resource/4399"
-            ]
-        },
-        {
-            "name": "卢纳(9游、豌豆荚)",
-            "path": [
-                "{PROJECT_DIR}/resource/base",
-                "{PROJECT_DIR}/resource/ali"
-            ]
-        },
-        {
-            "name": "卢纳(应用宝、联想)",
-            "path": [
-                "{PROJECT_DIR}/resource/base",
-                "{PROJECT_DIR}/resource/tencent"
+                "{PROJECT_DIR}/resource/"
             ]
         }
     ],
@@ -84,7 +26,7 @@
                         "关闭悬浮窗"
                     ]
                 }
-            }
+            },
         },
         {
             "name": "每日签到",

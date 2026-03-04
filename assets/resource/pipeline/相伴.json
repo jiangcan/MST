@@ -1,0 +1,168 @@
+{
+    "$__mpe_config_新建Pipeline5": {
+        "$__mpe_code": {
+            "filePath": "F:\\Code\\MST\\assets\\resource\\pipeline\\相伴.json",
+            "filename": "新建Pipeline5",
+            "isModifiedExternally": false,
+            "lastSyncTime": 1772631514675,
+            "prefix": "相伴",
+            "version": "v1.2.1"
+        }
+    },
+    "相伴_位于界面_相伴": {
+        "$__mpe_code": {
+            "position": {
+                "x": -231,
+                "y": -229
+            }
+        },
+        "next": [
+            "相伴_新建节点4"
+        ],
+        "recognition": {
+            "param": {
+                "expected": [
+                    "相伴"
+                ],
+                "only_rec": true,
+                "replace": [],
+                "roi": [
+                    214,
+                    26,
+                    113,
+                    31
+                ]
+            },
+            "type": "OCR"
+        }
+    },
+    "相伴_执行相伴日常": {
+        "$__mpe_code": {
+            "position": {
+                "x": -636,
+                "y": 108
+            }
+        },
+        "next": [
+            "相伴_位于界面_相伴",
+            "[JumpBack]相伴_进入相伴_spine",
+            "[JumpBack]相伴_进入相伴_live2d",
+            "[JumpBack]相伴_进入相伴_誓约"
+        ]
+    },
+    "相伴_新建节点4": {
+        "$__mpe_code": {
+            "position": {
+                "x": 155,
+                "y": -522
+            }
+        },
+        "action": {
+            "param": {
+                "target": [
+                    625,
+                    173,
+                    32,
+                    29
+                ]
+            },
+            "type": "Click"
+        },
+        "repeat": 10,
+        "repeat_delay": 500
+    },
+    "相伴_相伴_delay": {
+        "$__mpe_code": {
+            "position": {
+                "x": 258,
+                "y": 280
+            }
+        },
+        "post_delay": 1000,
+        "pre_delay": 0
+    },
+    "相伴_进入相伴_live2d": {
+        "$__mpe_code": {
+            "position": {
+                "x": -212,
+                "y": 399
+            }
+        },
+        "action": {
+            "param": {},
+            "type": "Click"
+        },
+        "next": [
+            "[JumpBack]相伴_相伴_delay"
+        ],
+        "post_delay": 1000,
+        "recognition": {
+            "param": {
+                "expected": "相伴",
+                "only_rec": true,
+                "roi": [
+                    740,
+                    411,
+                    63,
+                    35
+                ]
+            },
+            "type": "OCR"
+        }
+    },
+    "相伴_进入相伴_spine": {
+        "$__mpe_code": {
+            "position": {
+                "x": -216,
+                "y": 117
+            }
+        },
+        "action": {
+            "param": {},
+            "type": "Click"
+        },
+        "next": [
+            "[JumpBack]相伴_相伴_delay"
+        ],
+        "recognition": {
+            "param": {
+                "expected": "相伴",
+                "only_rec": true,
+                "roi": [
+                    562,
+                    333,
+                    56,
+                    34
+                ]
+            },
+            "type": "OCR"
+        }
+    },
+    "相伴_进入相伴_誓约": {
+        "$__mpe_code": {
+            "position": {
+                "x": -218,
+                "y": 700
+            }
+        },
+        "action": {
+            "param": {},
+            "type": "Click"
+        },
+        "next": [
+            "[JumpBack]相伴_相伴_delay"
+        ],
+        "recognition": {
+            "param": {
+                "expected": "相伴",
+                "roi": [
+                    126,
+                    141,
+                    1036,
+                    347
+                ]
+            },
+            "type": "OCR"
+        }
+    }
+}
