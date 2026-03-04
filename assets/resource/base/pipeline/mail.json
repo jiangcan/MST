@@ -1,10 +1,8 @@
 {
     "领取邮件": {
         "next": [
-            "override_位于主界面"
-        ],
-        "interrupt": [
-            "返回主界面_fast"
+            "override_位于主界面",
+            "[JumpBack]返回主界面_fast"
         ]
     },
     "领取邮件开始": {
@@ -19,10 +17,8 @@
         "action": "Click",
         "next": [
             "override_点击空白区域",
-            "邮件领取完毕"
-        ],
-        "interrupt": [
-            "邮件领取按键"
+            "邮件领取完毕",
+            "[JumpBack]邮件领取按键"
         ],
         "timeout": 15000,
         "on_error": [
@@ -53,10 +49,8 @@
         "next": [
             "位于主界面1",
             "位于主界面2",
-            "位于主界面3"
-        ],
-        "interrupt": [
-            "退出邮件"
+            "位于主界面3",
+            "[JumpBack]退出邮件"
         ],
         "on_error": [
             "返回主界面"

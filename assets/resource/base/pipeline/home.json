@@ -1,21 +1,17 @@
 {
     "家园": {
         "next": [
-            "override_位于家园"
-        ],
-        "interrupt": [
-            "点击返回按钮",
-            "关闭悬浮窗",
-            "不在家园"
+            "override_位于家园",
+            "[JumpBack]点击返回按钮",
+            "[JumpBack]关闭悬浮窗",
+            "[JumpBack]不在家园"
         ]
     },
     "不在家园": {
         "home_doc": "尝试返回主页面后再进入家园",
         "next": [
-            "override_位于主界面"
-        ],
-        "interrupt": [
-            "返回主界面_fast"
+            "override_位于主界面",
+            "[JumpBack]返回主界面_fast"
         ]
     },
     "进入家园": {
@@ -39,10 +35,8 @@
         "only_rec": true,
         "action": "Click",
         "next": [
-            "位于家园"
-        ],
-        "interrupt": [
-            "加载中1"
+            "位于家园",
+            "[JumpBack]加载中1"
         ]
     },
     "进入家园2": {
@@ -58,10 +52,8 @@
         "only_rec": true,
         "action": "Click",
         "next": [
-            "位于家园"
-        ],
-        "interrupt": [
-            "加载中1"
+            "位于家园",
+            "[JumpBack]加载中1"
         ]
     },
     "进入家园3": {
@@ -76,10 +68,8 @@
         ],
         "action": "Click",
         "next": [
-            "位于家园"
-        ],
-        "interrupt": [
-            "加载中1"
+            "位于家园",
+            "[JumpBack]加载中1"
         ]
     },
     "位于家园": {
@@ -159,12 +149,10 @@
         "only_rec": true,
         "inverse": true,
         "next": [
-            "位于家园"
+            "位于家园",
+            "[JumpBack]点击返回按钮"
         ],
-        "interrupt": [
-            "点击返回按钮"
-        ],
-        "on_error": "返回主界面_fast"
+        "on_error": ["返回主界面_fast"]
     },
     "收取凝练石": {
         "recognition": "OCR",
@@ -195,10 +183,8 @@
         "only_rec": true,
         "inverse": true,
         "next": [
-            "位于种植"
-        ],
-        "interrupt": [
-            "进入种植"
+            "位于种植",
+            "[JumpBack]进入种植"
         ]
     },
     "收菜": {
@@ -225,11 +211,9 @@
         ],
         "only_rec": true,
         "next": [
-            "种植完毕"
-        ],
-        "interrupt": [
-            "点击种植",
-            "选择种子"
+            "种植完毕",
+            "[JumpBack]点击种植",
+            "[JumpBack]选择种子"
         ]
     },
     "进入种植": {
@@ -254,10 +238,8 @@
         ],
         "only_rec": true,
         "next": [
-            "位于家园"
-        ],
-        "interrupt": [
-            "退出种植"
+            "位于家园",
+            "[JumpBack]退出种植"
         ]
     },
     "点击种植": {
@@ -301,10 +283,8 @@
         "only_rec": true,
         "inverse": true,
         "next": [
-            "位于事务派遣"
-        ],
-        "interrupt": [
-            "进入事务派遣"
+            "位于事务派遣",
+            "[JumpBack]进入事务派遣"
         ]
     },
     "领取事务派遣奖励": {
@@ -331,10 +311,8 @@
         "only_rec": true,
         "next": [
             "无可刷新材料",
-            "免费次数用尽"
-        ],
-        "interrupt": [
-            "有可刷新委托"
+            "免费次数用尽",
+            "[JumpBack]有可刷新委托"
         ]
     },
     "无可刷新材料": {
@@ -352,10 +330,8 @@
         ],
         "inverse": true,
         "next": [
-            "派遣完毕"
-        ],
-        "interrupt": [
-            "一键派遣"
+            "派遣完毕",
+            "[JumpBack]一键派遣"
         ]
     },
     "进入事务派遣": {
@@ -381,10 +357,8 @@
         "only_rec": true,
         "inverse": true,
         "next": [
-            "派遣完毕"
-        ],
-        "interrupt": [
-            "一键派遣"
+            "派遣完毕",
+            "[JumpBack]一键派遣"
         ]
     },
     "派遣完毕": {
@@ -398,10 +372,8 @@
         ],
         "only_rec": true,
         "next": [
-            "位于家园"
-        ],
-        "interrupt": [
-            "点击返回按钮"
+            "位于家园",
+            "[JumpBack]点击返回按钮"
         ]
     },
     "有可刷新委托": {
@@ -494,10 +466,8 @@
         ],
         "only_rec": true,
         "next": [
-            "位于家园"
-        ],
-        "interrupt": [
-            "关闭悬浮窗"
+            "位于家园",
+            "[JumpBack]关闭悬浮窗"
         ]
     },
     "有好友": {
@@ -513,10 +483,8 @@
         "action": "Click",
         "next": [
             "有好友",
-            "进入左下房间"
-        ],
-        "interrupt": [
-            "加载中1"
+            "进入左下房间",
+            "[JumpBack]加载中1"
         ]
     },
     "进入左下房间": {
@@ -538,10 +506,8 @@
         ],
         "next": [
             "进入左下房间1",
-            "有好友"
-        ],
-        "interrupt": [
-            "加载中1"
+            "有好友",
+            "[JumpBack]加载中1"
         ]
     },
     "进入左下房间1": {
@@ -570,10 +536,8 @@
         "only_rec": true,
         "inverse": true,
         "next": [
-            "位于家园"
-        ],
-        "interrupt": [
-            "关闭悬浮窗"
+            "位于家园",
+            "[JumpBack]关闭悬浮窗"
         ]
     },
     "位于拜访页面": {
@@ -588,12 +552,10 @@
         "only_rec": true,
         "next": [
             "拾箱次数用尽",
-            "无可拜访好友"
-        ],
-        "interrupt": [
-            "点击空白区域",
-            "加载中1",
-            "pre_检测箱子"
+            "无可拜访好友",
+            "[JumpBack]点击空白区域",
+            "[JumpBack]加载中1",
+            "[JumpBack]pre_检测箱子"
         ]
     },
     "无可拜访好友": {
@@ -608,10 +570,8 @@
         ],
         "only_rec": true,
         "next": [
-            "位于家园"
-        ],
-        "interrupt": [
-            "回家"
+            "位于家园",
+            "[JumpBack]回家"
         ]
     },
     "拾箱次数用尽": {
@@ -625,11 +585,9 @@
         ],
         "only_rec": true,
         "next": [
-            "位于家园"
-        ],
-        "interrupt": [
-            "回家",
-            "加载中1"
+            "位于家园",
+            "[JumpBack]回家",
+            "[JumpBack]加载中1"
         ]
     },
     "回家": {
@@ -730,10 +688,8 @@
         ],
         "only_rec": true,
         "next": [
-            "无自动捕鱼奖励"
-        ],
-        "interrupt": [
-            "收取自动捕鱼奖励"
+            "无自动捕鱼奖励",
+            "[JumpBack]收取自动捕鱼奖励"
         ]
     },
     "收取自动捕鱼奖励": {
@@ -782,10 +738,8 @@
         ],
         "inverse": true,
         "next": [
-            "位于捕鱼工具选择界面"
-        ],
-        "interrupt": [
-            "进入捕鱼工具选择界面"
+            "位于捕鱼工具选择界面",
+            "[JumpBack]进入捕鱼工具选择界面"
         ]
     },
     "override_无自动捕鱼奖励": {
@@ -809,10 +763,8 @@
         ],
         "inverse": true,
         "next": [
-            "override_位于捕鱼工具选择界面"
-        ],
-        "interrupt": [
-            "进入捕鱼工具选择界面"
+            "override_位于捕鱼工具选择界面",
+            "[JumpBack]进入捕鱼工具选择界面"
         ]
     },
     "进入捕鱼工具选择界面": {
@@ -838,12 +790,10 @@
         ],
         "only_rec": true,
         "next": [
-            "捕鱼100次完成"
-        ],
-        "interrupt": [
-            "点击空白区域",
-            "捕鱼100次",
-            "override_无自动捕鱼奖励"
+            "捕鱼100次完成",
+            "[JumpBack]点击空白区域",
+            "[JumpBack]捕鱼100次",
+            "[JumpBack]override_无自动捕鱼奖励"
         ]
     },
     "override_位于捕鱼工具选择界面": {
@@ -889,12 +839,10 @@
             105
         ],
         "next": [
-            "捕鱼10次完成"
-        ],
-        "interrupt": [
-            "点击空白区域",
-            "捕鱼10次",
-            "override_无自动捕鱼奖励"
+            "捕鱼10次完成",
+            "[JumpBack]点击空白区域",
+            "[JumpBack]捕鱼10次",
+            "[JumpBack]override_无自动捕鱼奖励"
         ]
     },
     "捕鱼10次": {
@@ -929,12 +877,10 @@
             105
         ],
         "next": [
-            "捕鱼完成"
-        ],
-        "interrupt": [
-            "点击空白区域",
-            "捕鱼1次",
-            "override_无自动捕鱼奖励"
+            "捕鱼完成",
+            "[JumpBack]点击空白区域",
+            "[JumpBack]捕鱼1次",
+            "[JumpBack]override_无自动捕鱼奖励"
         ]
     },
     "捕鱼1次": {
